@@ -42,7 +42,7 @@ function hashIp(ip: string) {
   return createHash("sha256").update(ip).digest("hex");
 }
 
-async function repairAndParseResult(rawText: string): Promise<unknown> {
+async function repairAndParseResult(rawText: string): Promise<AssessAIResult> {
   const client = getAnthropic();
   const repaired = await client.messages.create({
     model: getAnthropicModel(),
