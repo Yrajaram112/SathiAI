@@ -1,0 +1,644 @@
+[
+  {
+    "id": "nrb_startup_loan",
+    "name_en": "NRB Startup Enterprise Concessional Loan",
+    "name_np": "एनआरबी स्टार्टअप उद्यम सहुलियत कर्जा",
+    "short_en": "NRB Startup",
+    "type": "loan_subsidized",
+    "umbrella": "NRB Concessional Loan Procedure 2082 (2025)",
+    "legal_basis": "सहुलियतपूर्ण कर्जाका लागि ब्याज अनुदान सम्बन्धी एकीकृत कार्यविधि, २०८२ — Cabinet decision Aug 11, 2025; supersedes the 2075 procedure with its 3rd amendment",
+    "category": ["startup", "loan", "subsidized"],
+    "ministry": "Nepal Rastra Bank (procedure) / disbursed by commercial banks",
+    "apply_at": "Any licensed commercial bank in Nepal",
+    "max_loan_npr": 2500000,
+    "subsidy_pct": 3,
+    "max_loan_period_years": 5,
+    "grace_period_years": 1,
+    "effective_rate_note_en": "Bank may charge up to its base rate + 1.5 percentage points. Government subsidizes 3 percentage points for up to 5 years. The 1-year grace period (no principal/interest) starts from disbursement. Effective rate during subsidy period is typically ~5–7% depending on the bank's base rate.",
+    "effective_rate_note_np": "बैंकले आधार दरमा १.५% सम्म थप्न सक्छ। सरकारले ३ प्रतिशत बिन्दु अनुदान दिन्छ (बढीमा ५ वर्षसम्म)। पहिलो वर्ष ग्रेस अवधि।",
+    "eligibility": {
+      "age_min": 18,
+      "citizenship_required": true,
+      "business_registered": true,
+      "max_company_age_years": 10,
+      "max_annual_turnover_npr": 150000000,
+      "registration_forms_accepted": ["private_firm", "partnership", "company", "cooperative"],
+      "gender": "any",
+      "collateral_required": false,
+      "project_as_collateral": true,
+      "not_blacklisted_cib": true,
+      "one_per_household": true,
+      "innovative_idea_required": true
+    },
+    "industries": ["all_except_import_only_or_holding_or_blacklisted"],
+    "documents": [
+      "Citizenship certificate",
+      "Company / partnership / cooperative registration certificate",
+      "PAN certificate",
+      "Business plan with innovation rationale",
+      "Bank account statement",
+      "CIB clearance"
+    ],
+    "processing_days_estimate": 45,
+    "description_en": "New in the 2082 (2025) procedure: registered startups (≤10 years old, annual turnover ≤NPR 15 Crore) can get up to NPR 25 lakh at a 3% government interest subsidy. Loan secured by the project itself, not collateral. Apply through any licensed commercial bank. The same eligibility criteria are used by the parallel MoICS/IEDI competitive program.",
+    "description_np": "२०८२ को नयाँ कार्यविधिमा थपिएको — दर्ता भएका १० वर्ष भन्दा कम पुरानो र वार्षिक कारोबार १५ करोड भन्दा कम भएका स्टार्टअपलाई २५ लाख सम्म ३% ब्याज अनुदानमा कर्जा। परियोजना धितो।",
+    "primary_source_urls": [
+      "https://www.nrb.org.np/category/faqs/faq_bfr/faq_bfr-sahuliyatpurna-karja/"
+    ],
+    "source_urls": [
+      "https://www.nrb.org.np/category/faqs/faq_bfr/faq_bfr-sahuliyatpurna-karja/",
+      "https://www.fiscalnepal.com/2025/08/26/21947/startup-businesses-included-in-concessional-loan-interest-subsidy-credit-limits-expanded/",
+      "https://ekantipur.com/business/2025/08/29/en/concessional-loan-procedure-of-interest-subsidy-has-been-modified-the-type-of-loan-has-decreased-interest-subsidy-is-only-3-percent-54-31.html",
+      "https://bizmandu.com/content/20250827161948.html"
+    ],
+    "last_verified_on": "2026-05-05",
+    "verification_status": "verified",
+    "confidence": "high",
+    "tags": ["startup", "subsidized", "tech_eligible", "registered_needed", "popular", "project_as_collateral"]
+  },
+  {
+    "id": "nrb_women_entrepreneur",
+    "name_en": "NRB Women Entrepreneur Concessional Loan",
+    "name_np": "महिला उद्यमशीलता सहुलियत कर्जा",
+    "short_en": "Women Loan",
+    "type": "loan_subsidized",
+    "umbrella": "NRB Concessional Loan Procedure 2082 (2025)",
+    "legal_basis": "सहुलियतपूर्ण कर्जाका लागि ब्याज अनुदान सम्बन्धी एकीकृत कार्यविधि, २०८२",
+    "category": ["women", "loan", "subsidized"],
+    "ministry": "Nepal Rastra Bank (procedure) / disbursed by commercial banks",
+    "apply_at": "Any licensed commercial bank in Nepal",
+    "max_loan_npr": 2500000,
+    "subsidy_pct": 3,
+    "max_loan_period_years": 5,
+    "effective_rate_note_en": "Bank base rate + up to 1.5%, minus 3% government subsidy (up to 5 years). Effective rate typically ~5–7%. Group loans (5+ women from different families) are also supported.",
+    "effective_rate_note_np": "बैंक आधार दर + १.५% सम्म, सरकारले ३% अनुदान दिन्छ (५ वर्षसम्म)। समूह कर्जा (फरक परिवारका ५+ महिला) पनि उपलब्ध।",
+    "eligibility": {
+      "age_min": 18,
+      "citizenship_required": true,
+      "business_registered": false,
+      "gender": "female",
+      "collateral_required": false,
+      "not_blacklisted_cib": true,
+      "one_per_household": true,
+      "group_loan_min_members": 5
+    },
+    "industries": ["all"],
+    "documents": [
+      "Citizenship certificate",
+      "Brief business plan / proposal",
+      "Passport photo",
+      "Ward recommendation",
+      "Bank account statement",
+      "Group formation document (group loan only)"
+    ],
+    "processing_days_estimate": 30,
+    "description_en": "Largest concessional loan program in Nepal — over NPR 62 billion disbursed to 60,000+ women entrepreneurs. Ceiling raised from NPR 15 lakh to NPR 25 lakh in the 2082 procedure (Aug 2025). Pre-2082 loans run on the old terms; new applications use the 2082 limits.",
+    "description_np": "नेपालको सबैभन्दा ठूलो सहुलियत कर्जा कार्यक्रम। २०८२ को नयाँ कार्यविधिमा सीमा १५ लाखबाट २५ लाख पुर्‍याइएको।",
+    "primary_source_urls": [
+      "https://www.nrb.org.np/category/faqs/faq_bfr/faq_bfr-sahuliyatpurna-karja/"
+    ],
+    "source_urls": [
+      "https://www.nrb.org.np/category/faqs/faq_bfr/faq_bfr-sahuliyatpurna-karja/",
+      "https://www.sc.com/np/loans/subsidized/",
+      "https://www.nepsetrading.com/news/women-entrepreneur-loans-cross-npr-62-billion-",
+      "https://www.fiscalnepal.com/2025/08/26/21947/startup-businesses-included-in-concessional-loan-interest-subsidy-credit-limits-expanded/"
+    ],
+    "last_verified_on": "2026-05-05",
+    "verification_status": "verified",
+    "confidence": "high",
+    "tags": ["women_only", "subsidized", "no_collateral", "group_loans", "popular"]
+  },
+  {
+    "id": "nrb_educated_youth_project",
+    "name_en": "NRB Educated Youth Project Loan",
+    "name_np": "शिक्षित युवा परियोजना कर्जा",
+    "short_en": "Educated Youth Loan",
+    "type": "loan_subsidized",
+    "umbrella": "NRB Concessional Loan Procedure 2082 (2025)",
+    "legal_basis": "सहुलियतपूर्ण कर्जाका लागि ब्याज अनुदान सम्बन्धी एकीकृत कार्यविधि, २०८२",
+    "category": ["youth", "education", "loan", "subsidized"],
+    "ministry": "Nepal Rastra Bank (procedure) / disbursed by commercial banks",
+    "apply_at": "Any licensed commercial bank in Nepal",
+    "max_loan_npr": 2000000,
+    "subsidy_pct": 3,
+    "max_loan_period_years": 5,
+    "effective_rate_note_en": "Bank base rate + up to 1.5%, minus 3% government subsidy. Typically ~5–7% effective. The 2082 procedure consolidated the older 'educated youth self-employment' (NPR 7 lakh ceiling) into this 'educated youth project' category at NPR 20 lakh.",
+    "effective_rate_note_np": "बैंक आधार दर + १.५% सम्म, सरकारले ३% अनुदान। २०८२ कार्यविधिमा सीमा ७ लाखबाट २० लाख पुर्‍याइएको।",
+    "eligibility": {
+      "age_min": 18,
+      "citizenship_required": true,
+      "business_registered": false,
+      "gender": "any",
+      "education_min": "intermediate_or_higher_per_2082_procedure",
+      "collateral_required": false,
+      "not_blacklisted_cib": true,
+      "education_certificate_as_collateral": true
+    },
+    "industries": ["all"],
+    "documents": [
+      "Citizenship",
+      "Original education certificate (held as collateral by the bank)",
+      "Project / business plan",
+      "Ward recommendation"
+    ],
+    "processing_days_estimate": 35,
+    "description_en": "Limit raised from NPR 7 lakh to NPR 20 lakh in 2025. For educated youth starting their own project / business. The bank typically holds the original education certificate as collateral. 3% government interest subsidy.",
+    "description_np": "२०८२ कार्यविधिमा सीमा ७ लाखबाट २० लाख पुर्‍याइएको। शिक्षित युवाले आफ्नो परियोजना सुरु गर्न ३% ब्याज अनुदानमा कर्जा। बैंकले शैक्षिक प्रमाणपत्र धितो राख्छ।",
+    "primary_source_urls": [
+      "https://www.nrb.org.np/category/faqs/faq_bfr/faq_bfr-sahuliyatpurna-karja/"
+    ],
+    "source_urls": [
+      "https://www.nrb.org.np/category/faqs/faq_bfr/faq_bfr-sahuliyatpurna-karja/",
+      "https://www.fiscalnepal.com/2025/08/26/21947/startup-businesses-included-in-concessional-loan-interest-subsidy-credit-limits-expanded/"
+    ],
+    "last_verified_on": "2026-05-05",
+    "verification_status": "verified",
+    "confidence": "high",
+    "tags": ["educated_youth", "subsidized", "education_as_collateral"]
+  },
+  {
+    "id": "nrb_returnee_migrant",
+    "name_en": "NRB Returnee Migrant Self-Employment Loan",
+    "name_np": "वैदेशिक रोजगारीबाट फर्किएकाहरूको स्वरोजगार कर्जा",
+    "short_en": "Returnee Migrant Loan",
+    "type": "loan_subsidized",
+    "umbrella": "NRB Concessional Loan Procedure 2082 (2025)",
+    "legal_basis": "सहुलियतपूर्ण कर्जाका लागि ब्याज अनुदान सम्बन्धी एकीकृत कार्यविधि, २०८२",
+    "category": ["returnee", "self_employment", "loan", "subsidized"],
+    "ministry": "Nepal Rastra Bank (procedure) / disbursed by commercial banks",
+    "apply_at": "Any licensed commercial bank in Nepal",
+    "max_loan_npr": 2000000,
+    "subsidy_pct": 3,
+    "max_loan_period_years": 5,
+    "effective_rate_note_en": "Bank base rate + up to 1.5%, minus 3% subsidy. Eligible if you worked at least 6 months in any foreign country (per 2075 procedure definition; 2082 carries forward). Project-based collateral allowed.",
+    "effective_rate_note_np": "बैंक आधार दर + १.५% सम्म, सरकारले ३% अनुदान। कुनै पनि देशमा कम्तीमा ६ महिना काम गरी फर्केका युवालाई।",
+    "eligibility": {
+      "age_min": 18,
+      "citizenship_required": true,
+      "business_registered": false,
+      "gender": "any",
+      "collateral_required": false,
+      "returned_from_foreign_employment": true,
+      "min_foreign_work_months": 6,
+      "not_blacklisted_cib": true
+    },
+    "industries": ["all"],
+    "documents": [
+      "Citizenship",
+      "Foreign employment labour permit / final settlement / passport stamps showing return",
+      "Business plan",
+      "Ward recommendation"
+    ],
+    "processing_days_estimate": 30,
+    "description_en": "Limit doubled to NPR 20 lakh in 2025. For Nepalis who worked abroad for at least 6 months and have returned to start a business at home. Project-based collateral.",
+    "description_np": "२०८२ कार्यविधिमा सीमा दोब्बर भई २० लाख पुगेको। कम्तीमा ६ महिना विदेशमा काम गरेर फर्केर देशमै व्यवसाय गर्न चाहनेका लागि।",
+    "primary_source_urls": [
+      "https://www.nrb.org.np/category/faqs/faq_bfr/faq_bfr-sahuliyatpurna-karja/"
+    ],
+    "source_urls": [
+      "https://www.nrb.org.np/category/faqs/faq_bfr/faq_bfr-sahuliyatpurna-karja/",
+      "https://www.fiscalnepal.com/2025/08/26/21947/startup-businesses-included-in-concessional-loan-interest-subsidy-credit-limits-expanded/"
+    ],
+    "last_verified_on": "2026-05-05",
+    "verification_status": "verified",
+    "confidence": "high",
+    "tags": ["returnee", "subsidized", "no_collateral"]
+  },
+  {
+    "id": "nrb_dalit_community",
+    "name_en": "Dalit Community Enterprise Loan (Bhagat Sarbajit)",
+    "name_np": "भगत सर्वजित दलित समुदाय उद्यम कर्जा",
+    "short_en": "Dalit Enterprise Loan",
+    "type": "loan_subsidized",
+    "umbrella": "NRB Concessional Loan Procedure 2082 (2025)",
+    "legal_basis": "सहुलियतपूर्ण कर्जाका लागि ब्याज अनुदान सम्बन्धी एकीकृत कार्यविधि, २०८२",
+    "category": ["dalit", "marginalized", "loan", "subsidized"],
+    "ministry": "Nepal Rastra Bank (procedure) / disbursed by commercial banks",
+    "apply_at": "Any licensed commercial bank in Nepal",
+    "max_loan_npr": 2000000,
+    "subsidy_pct": 3,
+    "max_loan_period_years": 5,
+    "effective_rate_note_en": "Bank base rate + up to 1.5%, minus 3% subsidy. Group or individual loans both supported. Limit doubled to NPR 20 lakh in 2082.",
+    "effective_rate_note_np": "बैंक आधार दर + १.५% सम्म, सरकारले ३% अनुदान। समूह वा एकल दुवै कर्जा उपलब्ध।",
+    "eligibility": {
+      "age_min": 18,
+      "citizenship_required": true,
+      "business_registered": false,
+      "gender": "any",
+      "collateral_required": false,
+      "dalit_community": true,
+      "dalit_certification_required": "from gaupalika / nagarpalika",
+      "not_blacklisted_cib": true
+    },
+    "industries": ["all"],
+    "documents": [
+      "Citizenship",
+      "Caste / community certificate from local body",
+      "Business proposal",
+      "Ward recommendation"
+    ],
+    "processing_days_estimate": 30,
+    "description_en": "Limit doubled to NPR 20 lakh in 2025 (originally Bhagat Sarbajit Enterprise Development category in the 2075 procedure). Concessional loan for Dalit community members for traditional skill modernization or new enterprise.",
+    "description_np": "२०८२ कार्यविधिमा सीमा दोब्बर भई २० लाख पुगेको। दलित समुदायका लागि परम्परागत सीप आधुनिकीकरण वा नयाँ उद्यमका लागि सहुलियत कर्जा।",
+    "primary_source_urls": [
+      "https://www.nrb.org.np/category/faqs/faq_bfr/faq_bfr-sahuliyatpurna-karja/"
+    ],
+    "source_urls": [
+      "https://www.nrb.org.np/category/faqs/faq_bfr/faq_bfr-sahuliyatpurna-karja/",
+      "https://www.fiscalnepal.com/2025/08/26/21947/startup-businesses-included-in-concessional-loan-interest-subsidy-credit-limits-expanded/"
+    ],
+    "last_verified_on": "2026-05-05",
+    "verification_status": "verified",
+    "confidence": "high",
+    "tags": ["dalit_only", "subsidized", "no_collateral"]
+  },
+  {
+    "id": "nrb_agriculture",
+    "name_en": "NRB Agriculture & Livestock Concessional Loan",
+    "name_np": "व्यावसायिक कृषि तथा पशुपन्छी सहुलियत कर्जा",
+    "short_en": "Agri Concessional",
+    "type": "loan_subsidized",
+    "umbrella": "NRB Concessional Loan Procedure 2082 (2025)",
+    "legal_basis": "सहुलियतपूर्ण कर्जाका लागि ब्याज अनुदान सम्बन्धी एकीकृत कार्यविधि, २०८२",
+    "category": ["agriculture", "livestock", "loan", "subsidized"],
+    "ministry": "Nepal Rastra Bank (procedure) / disbursed by commercial banks",
+    "apply_at": "Any licensed commercial bank — ADBL is the largest issuer",
+    "max_loan_npr": 50000000,
+    "subsidy_pct": 3,
+    "max_loan_period_years": 5,
+    "effective_rate_note_en": "Highest ceiling among concessional loans (NPR 5 crore). Bank base rate + 1.5% max, minus 3% subsidy. Up to NPR 10 lakh can be issued against personal guarantee from a household member; larger amounts require project mortgage and crop / livestock insurance.",
+    "effective_rate_note_np": "सहुलियत कर्जामध्ये सबैभन्दा ठूलो सीमा (५ करोड)। १० लाख सम्म पारिवारिक जमानीमा; ठूलो रकमका लागि परियोजना धितो र बीमा अनिवार्य।",
+    "eligibility": {
+      "age_min": 18,
+      "citizenship_required": true,
+      "business_registered": false,
+      "gender": "any",
+      "collateral_required": "amount_dependent",
+      "personal_guarantee_threshold_npr": 1000000,
+      "not_blacklisted_cib": true,
+      "insurance_required_above_threshold": true
+    },
+    "industries": ["agriculture", "livestock", "fishery", "agro_processing", "warehousing_primary_agri"],
+    "documents": [
+      "Citizenship",
+      "Land ownership / lease document",
+      "Project plan",
+      "Ward recommendation",
+      "Bank account statement",
+      "Crop / livestock insurance arrangement (above threshold)"
+    ],
+    "processing_days_estimate": 30,
+    "description_en": "Concessional agriculture loan with the highest ceiling (NPR 5 crore). Best path for commercial farms, dairy, poultry, fishery, and agro-processing. ADBL processes the bulk of these loans nationwide. Amounts above NPR 5 crore can be approved by NRB's central coordination committee on case-by-case basis.",
+    "description_np": "सबैभन्दा ठूलो सीमा (५ करोड) भएको कृषि सहुलियत कर्जा। व्यावसायिक खेती, पशुपालन, मत्स्यपालन, कृषि प्रशोधनका लागि। ५ करोड भन्दा बढीको हकमा केन्द्रीय समन्वय समितिले स्वीकृति दिन सक्छ।",
+    "primary_source_urls": [
+      "https://www.nrb.org.np/category/faqs/faq_bfr/faq_bfr-sahuliyatpurna-karja/"
+    ],
+    "source_urls": [
+      "https://www.nrb.org.np/category/faqs/faq_bfr/faq_bfr-sahuliyatpurna-karja/",
+      "https://ekantipur.com/business/2025/08/29/en/concessional-loan-procedure-of-interest-subsidy-has-been-modified-the-type-of-loan-has-decreased-interest-subsidy-is-only-3-percent-54-31.html"
+    ],
+    "last_verified_on": "2026-05-05",
+    "verification_status": "verified",
+    "confidence": "high",
+    "tags": ["agriculture", "highest_ceiling", "subsidized", "insurance_required"]
+  },
+  {
+    "id": "moics_startup_enterprise_fund",
+    "name_en": "MoICS Startup Enterprise Loan Program (IEDI competitive route)",
+    "name_np": "स्टार्टअप उद्यम कर्जा कार्यक्रम (IEDI)",
+    "short_en": "MoICS / IEDI Startup",
+    "type": "loan_subsidized_competitive",
+    "umbrella": null,
+    "legal_basis": "स्टार्टअप उद्यम कर्जा कार्यक्रम सञ्चालन कार्यविधि, २०८२",
+    "category": ["startup", "loan", "innovation", "competitive"],
+    "ministry": "Ministry of Industry, Commerce and Supplies — administered by Industrial Enterprise Development Institute (IEDI)",
+    "apply_at": "Industrial Enterprise Development Institute (IEDI), iedi.org.np — when application call is published",
+    "max_loan_npr": 2500000,
+    "subsidy_pct": 3,
+    "max_loan_period_years": 5,
+    "grace_period_years": 1,
+    "effective_rate_note_en": "Subsidized at 3% effective interest. Selection is competitive — IEDI publishes calls, evaluates project proposals, and forwards selected applicants to partner banks. Project itself serves as collateral; no separate property mortgage required. The 2082 procedure replaces the 2079 version (which had stricter limits).",
+    "effective_rate_note_np": "३% ब्याजमा। प्रतिस्पर्धात्मक छनोट — IEDI ले परियोजना प्रस्तावको मूल्यांकन गरी छानिएकालाई साझेदार बैंकमार्फत कर्जा प्रदान गराउँछ। परियोजना नै धितो।",
+    "eligibility": {
+      "age_min": 18,
+      "citizenship_required": true,
+      "business_registered": true,
+      "max_company_age_years": 10,
+      "max_annual_turnover_npr": 150000000,
+      "registration_forms_accepted": ["private_firm", "partnership", "company", "cooperative"],
+      "gender": "any",
+      "collateral_required": false,
+      "project_as_collateral": true,
+      "innovative_idea_required": true,
+      "excluded": ["import_only_distributors", "blacklisted", "holding_or_investment_companies", "industrially_unregistered"]
+    },
+    "industries": ["all_innovation_qualifying"],
+    "documents": [
+      "Company registration",
+      "PAN",
+      "Detailed business plan with innovation rationale",
+      "Project proposal in IEDI's prescribed format",
+      "Financial projections (3 years)",
+      "Team CVs / promoter details",
+      "MVP or product evidence (preferred)"
+    ],
+    "processing_days_estimate": 90,
+    "description_en": "Government's flagship competitive startup fund administered by IEDI under MoICS. Same eligibility ceilings as the NRB concessional umbrella, but selection-based: IEDI publishes a call, you submit a project proposal, evaluators score it, and selected applicants are forwarded to partner banks for the actual loan disbursement. NPR 1 billion was allocated for FY 2024/25 (up from NPR 250 million the previous year); 661 projects were selected in the most recent cycle. If you don't win the IEDI selection, you can still apply directly via the NRB concessional category at any commercial bank.",
+    "description_np": "उद्योग मन्त्रालय अन्तर्गत IEDI ले सञ्चालन गर्ने प्रतिस्पर्धात्मक स्टार्टअप कोष। आ.व. २०८१/८२ मा १ अर्ब छुट्याइएको, ६६१ परियोजना छनोट। नछानिए NRB सहुलियत कर्जा अन्तर्गत बैंक मार्फत आवेदन गर्न सकिन्छ।",
+    "primary_source_urls": [
+      "https://moics.gov.np/content/13504/startup-enterprise-loan-program-proverholder-procedure--2082/",
+      "https://www.doind.gov.np/downloads",
+      "https://iedi.org.np/"
+    ],
+    "source_urls": [
+      "https://moics.gov.np/content/13504/startup-enterprise-loan-program-proverholder-procedure--2082/",
+      "https://iedi.org.np/स्टार्टअप-उद्यम-कर्जाका/",
+      "https://ujyaaloonline.com/story/105501/2024/8/17/startupenterprise-loan-operation-procedure-approch",
+      "https://www.fiscalnepal.com/2024/08/20/17640/government-launches-startup-loan-scheme-offering-up-to-rs-2-5-million-at-subsidized-rates/"
+    ],
+    "last_verified_on": "2026-05-05",
+    "verification_status": "verified",
+    "confidence": "high",
+    "tags": ["startup", "competitive", "tech_eligible", "innovation_required", "registered_needed", "iedi"]
+  },
+  {
+    "id": "ysef",
+    "name_en": "Youth & Small Entrepreneur Self-Employment Fund (YSESEF)",
+    "name_np": "युवा तथा साना व्यवसायी स्वरोजगार कोष",
+    "short_en": "YSESEF",
+    "type": "loan_subsidized_wholesale",
+    "umbrella": null,
+    "legal_basis": "Youth & Small Entrepreneur Self-Employment Fund Act and supporting procedures — under Ministry of Youth and Sports",
+    "category": ["youth", "self_employment", "loan", "interest_subsidy"],
+    "ministry": "Ministry of Youth and Sports",
+    "apply_at": "Partner BFIs (the Fund operates as a wholesale lender) — see ysef.gov.np for the current partner list and notices",
+    "max_loan_npr": null,
+    "subsidy_pct": null,
+    "effective_rate_note_en": "Specific loan ceilings, rates, and eligibility vary by partner BFI and current notices from the Fund. Active products on ysef.gov.np at the time of verification: subsidized commercial loans (सहुलियतपूर्ण व्यावसायीक कर्जा), low interest rate (न्यून व्याजदर), insurance premium subsidy (बीमा प्रिमियम), interest subsidy (व्याज अनुदान — a 60% subsidy form is currently active), entrepreneurship orientation training, and product market linkage. Confirm latest figures at ysef.gov.np or by phoning the Fund's Lalitpur office before applying.",
+    "effective_rate_note_np": "विशिष्ट रकम र दर साझेदार बैंक र हालको सूचना अनुसार फरक हुन्छ। ६०% ब्याज अनुदान फारम हाल सक्रिय। आवेदन अघि ysef.gov.np मा वा कुपण्डोल कार्यालयमा फोन गरेर पुष्टि गर्नुहोस्।",
+    "eligibility": {
+      "age_min": 18,
+      "citizenship_required": true,
+      "business_registered": false,
+      "gender": "any",
+      "collateral_required": "varies"
+    },
+    "industries": ["all"],
+    "documents": [
+      "Citizenship certificate",
+      "Business plan",
+      "Recent passport photo",
+      "Bank account",
+      "Documents specific to the partner BFI's product"
+    ],
+    "processing_days_estimate": 45,
+    "description_en": "An autonomous fund under the Ministry of Youth and Sports, located at Kupandole-10, Lalitpur. It does NOT lend directly to individuals — it provides wholesale credit and interest subsidies through partner banks and cooperatives. Currently active programs include a 60% interest subsidy. Specific amounts depend on the partner BFI's product. The product mix can change between fiscal years, so always verify with the Fund or a partner bank before applying.",
+    "description_np": "युवा तथा खेलकुद मन्त्रालय अन्तर्गतको स्वायत्त कोष (कुपण्डोल-१०, ललितपुर)। यसले सिधै व्यक्तिलाई कर्जा दिँदैन — साझेदार बैंक र सहकारीमार्फत थोक कर्जा र ब्याज अनुदान प्रदान गर्छ।",
+    "primary_source_urls": [
+      "https://ysef.gov.np/"
+    ],
+    "source_urls": [
+      "https://ysef.gov.np/",
+      "https://ysef.gov.np/content/9/60-interest-grant-form/",
+      "https://register.ysefgov.com/apply"
+    ],
+    "last_verified_on": "2026-05-05",
+    "verification_status": "indicative",
+    "confidence": "medium",
+    "tags": ["youth", "wholesale_lender", "interest_subsidy", "verify_partner_bfi", "phone_verify"]
+  },
+  {
+    "id": "adbl_agriculture_loans",
+    "name_en": "Agricultural Development Bank (ADBL) Direct Loans",
+    "name_np": "कृषि विकास बैंक प्रत्यक्ष कर्जा",
+    "short_en": "ADBL Direct",
+    "type": "loan_direct",
+    "umbrella": null,
+    "legal_basis": "ADBL is a public commercial bank licensed by NRB; it publishes its own quarterly product rate sheet",
+    "category": ["agriculture", "livestock", "loan", "direct"],
+    "ministry": "Government of Nepal majority-owned commercial bank",
+    "apply_at": "ADBL branches nationwide (~280+ branches across all provinces)",
+    "max_loan_npr": null,
+    "subsidy_pct": null,
+    "effective_rate_note_en": "ADBL publishes a quarterly rate sheet at adbl.gov.np. Per the rate sheet effective from Mangsir 1, 2082 (Nov 17, 2025), agricultural product premiums were posted as 'up to base + 2pp' for Agro-Production / Livestock / Fish farming, and 'up to base + 1pp' for Agricultural SME working capital. These are bank premiums on top of the published base rate; the effective rate the borrower pays = base rate + premium (minus any government subsidy if eligible under NRB concessional loan). Verify against the current quarter's rate sheet — rates change quarterly.",
+    "effective_rate_note_np": "ADBL को पछिल्लो दर पत्रिका adbl.gov.np मा हेर्नुहोस्। दर चौमासिक रूपमा परिवर्तन हुन्छ।",
+    "eligibility": {
+      "age_min": 18,
+      "citizenship_required": true,
+      "business_registered": false,
+      "gender": "any",
+      "collateral_required": "amount_dependent"
+    },
+    "industries": ["agriculture", "livestock", "fishery", "agro_processing"],
+    "documents": [
+      "Citizenship",
+      "Land / lease / livestock proof",
+      "Project plan",
+      "Bank account",
+      "Collateral docs (for larger amounts)"
+    ],
+    "processing_days_estimate": 30,
+    "description_en": "Nepal's dedicated agricultural bank with ~280+ branches. Often the cheapest direct credit for farming, livestock, fishery, and agro-processing. Combine with NRB concessional subsidy where eligible to lower effective rate further.",
+    "description_np": "नेपालको कृषि क्षेत्रका लागि समर्पित बैंक। सबैभन्दा सस्तो प्रत्यक्ष कृषि कर्जामध्ये एक।",
+    "primary_source_urls": [
+      "https://adbl.gov.np/",
+      "https://adbl.gov.np/en/products/loan/agriculture-and-msme-loan",
+      "https://adbl.gov.np/en/interest-rate/interest-rates-effective-from-mangsir-01-2082-17-november-2025"
+    ],
+    "source_urls": [
+      "https://adbl.gov.np/en/products/loan/agriculture-and-msme-loan",
+      "https://adbl.gov.np/en/interest-rate/interest-rates-effective-from-mangsir-01-2082-17-november-2025"
+    ],
+    "last_verified_on": "2026-05-05",
+    "verification_status": "verified",
+    "confidence": "high",
+    "tags": ["agriculture", "direct_lender", "nationwide", "rates_dynamic"]
+  },
+  {
+    "id": "dcsi_registration_support",
+    "name_en": "Department of Cottage & Small Industries — Registration & Support",
+    "name_np": "घरेलु तथा साना उद्योग विभाग — दर्ता र सहयोग",
+    "short_en": "DCSI",
+    "type": "registration_support",
+    "umbrella": null,
+    "legal_basis": "Industrial Enterprises Act, 2076 (2020); Cottage and Small Industries Act framework",
+    "category": ["cottage", "registration", "training", "linkage"],
+    "ministry": "Ministry of Industry, Commerce and Supplies",
+    "apply_at": "DCSI district offices and dcsi.gov.np",
+    "max_loan_npr": null,
+    "subsidy_pct": null,
+    "effective_rate_note_en": "DCSI is not a lender. It registers cottage / small industries (the gateway for many of the loan schemes above), runs training, and connects firms to OVOP-style market access, trade fairs, and export support. Registration is typically a prerequisite for the NRB concessional startup category and the MoICS/IEDI competitive program.",
+    "effective_rate_note_np": "DCSI ले कर्जा दिँदैन — दर्ता, तालिम र बजार पहुँचमा सहयोग गर्छ। कर्जा योजनाहरूका लागि यहाँको दर्ता प्रायः आवश्यक हुन्छ।",
+    "eligibility": {
+      "age_min": 18,
+      "citizenship_required": true,
+      "business_registered": false,
+      "gender": "any"
+    },
+    "industries": ["handicraft", "manufacturing", "agriculture", "food_processing", "services"],
+    "documents": [
+      "Citizenship",
+      "Business name + address",
+      "Owner photo",
+      "Tax registration intent"
+    ],
+    "processing_days_estimate": 14,
+    "description_en": "If your business isn't registered yet, this is the cheapest registration path for small / cottage scale. Registration here is often a prerequisite to applying for the NRB and MoICS startup schemes.",
+    "description_np": "साना उद्योग दर्ताको सबैभन्दा सजिलो बाटो। माथिका धेरै कर्जा योजनाहरूका लागि यहाँको दर्ता आवश्यक हुन्छ।",
+    "primary_source_urls": [
+      "http://dcsi.gov.np/en"
+    ],
+    "source_urls": [
+      "http://dcsi.gov.np/en",
+      "http://www.dcsi.gov.np/en/site/works"
+    ],
+    "last_verified_on": "2026-05-05",
+    "verification_status": "verified",
+    "confidence": "high",
+    "tags": ["registration", "training", "prerequisite_for_loans", "small_scale"]
+  },
+  {
+    "id": "ctevt_skills",
+    "name_en": "CTEVT Skill Training & Scholarships",
+    "name_np": "CTEVT सीप तालिम र छात्रवृत्ति",
+    "short_en": "CTEVT",
+    "type": "training",
+    "umbrella": null,
+    "legal_basis": "Council for Technical Education and Vocational Training Act, 2045",
+    "category": ["skill", "training", "scholarship"],
+    "ministry": "CTEVT (autonomous council) under Ministry of Education, Science & Technology",
+    "apply_at": "ctevt.org.np and constituent / affiliated technical schools",
+    "max_loan_npr": null,
+    "subsidy_pct": null,
+    "effective_rate_note_en": "Two tracks. (1) Diploma / certificate scholarships: NPR 1,000 application fee, applied via the unified online system (scholarship.ctevt.org.np); 2,165 scholarships across 22 programs in the 2082/83 cycle. Classified (free) seats are reserved for community-school students plus Dalit, Muslim, marginalized, and conflict-affected applicants. (2) Short-term skill training in 60+ trades through CTEVT Training Institutes — duration is weeks to a few months, often free or heavily subsidized for eligible candidates, and run year-round.",
+    "effective_rate_note_np": "दुई बाटो: डिप्लोमा/प्रमाणपत्र छात्रवृत्ति (आवेदन शुल्क रु. १,०००, scholarship.ctevt.org.np बाट) र छोटो अवधिको सीप तालिम (६०+ पेशामा प्रायः नि:शुल्क)।",
+    "eligibility": {
+      "age_min": 16,
+      "citizenship_required": true,
+      "business_registered": false,
+      "gender": "any",
+      "see_pass_required_for_diploma": true
+    },
+    "industries": ["all"],
+    "documents": [
+      "Citizenship or birth certificate",
+      "SEE marksheet (for diploma scholarships)",
+      "Application form",
+      "Passport photo",
+      "Community / caste certificate (for classified scholarships)"
+    ],
+    "processing_days_estimate": 14,
+    "description_en": "Best 'pre-loan' step — get a recognized skill certificate first, then apply for a business loan with much higher approval odds. Marginalized and community-school students get classified (free) scholarships. Application windows for the diploma scholarship typically open in Shrawan (July–August).",
+    "description_np": "व्यवसाय कर्जा अघिको उत्तम पाइला — पहिले सीप प्रमाणपत्र लिनुहोस्, त्यसपछि कर्जा। छात्रवृत्ति आवेदन प्रायः साउनमा खुल्छ।",
+    "primary_source_urls": [
+      "https://ctevt.org.np/quotas-scholarships",
+      "https://scholarship.ctevt.org.np:9090/"
+    ],
+    "source_urls": [
+      "https://ctevt.org.np/quotas-scholarships",
+      "https://scholarship.ctevt.org.np:9090/",
+      "https://edusanjal.com/scholarship/ctevt-classified-and-merit-based-scholarships/"
+    ],
+    "last_verified_on": "2026-05-05",
+    "verification_status": "verified",
+    "confidence": "high",
+    "tags": ["skill_building", "pre_loan_step", "scholarship_route", "marginalized_friendly"]
+  },
+  {
+    "id": "pmep_safety_net",
+    "name_en": "Prime Minister Employment Program (income safety net — NOT startup capital)",
+    "name_np": "प्रधानमन्त्री रोजगार कार्यक्रम (आय सुरक्षाकवच)",
+    "short_en": "PMEP",
+    "type": "wage_program",
+    "umbrella": null,
+    "legal_basis": "Right to Employment Act, 2075 (giving effect to Article 33 of the Constitution)",
+    "category": ["employment", "safety_net"],
+    "ministry": "Prime Minister's Office (implemented by local levels)",
+    "apply_at": "Local ward office where you have permanent residence",
+    "max_loan_npr": null,
+    "subsidy_pct": null,
+    "effective_rate_note_en": "This is NOT a startup grant or loan. It is a wage employment guarantee: a minimum 100 days of wage work per year on local public works (roads, irrigation, sanitation, etc.). The wage rate follows current notices — the program-specific rate was last publicly cited as NPR 577/day (2021 increase from NPR 517) plus accidental insurance; the general national minimum daily wage is NPR 754 since July 2025. Confirm the current PMEP-specific rate at your ward office. Useful as income while you prepare your business — not as business capital.",
+    "effective_rate_note_np": "यो स्टार्टअप अनुदान वा कर्जा होइन। स्थानीय निर्माण कार्यमा वर्षमा कम्तीमा १०० दिन रोजगारी ग्यारेन्टी। हालको ज्याला दर वार्ड कार्यालयमा सोधेर पुष्टि गर्नुहोस्। व्यवसाय तयारीको बेला आय स्रोतका रूपमा उपयोगी।",
+    "eligibility": {
+      "age_min": 18,
+      "age_max": 59,
+      "citizenship_required": true,
+      "business_registered": false,
+      "gender": "any",
+      "currently_unemployed": true,
+      "low_income": true
+    },
+    "industries": ["public_works"],
+    "documents": [
+      "Citizenship",
+      "Unemployment self-declaration",
+      "Ward residency proof"
+    ],
+    "processing_days_estimate": 14,
+    "description_en": "Listed here so the AI can correctly redirect users who think this gives startup money. It does not — it gives 100 days of wage work per year, which is a useful income bridge while you prepare a business plan and apply for actual startup loans (NRB concessional, MoICS/IEDI, etc.).",
+    "description_np": "यसलाई स्टार्टअप पुँजी ठान्नेहरूलाई सही जानकारी दिन सूचीबद्ध गरिएको। यसले व्यवसाय पुँजी होइन — रोजगारी ग्यारेन्टी मात्र दिन्छ।",
+    "primary_source_urls": [
+      "https://pmep.gov.np/pmep-introduction"
+    ],
+    "source_urls": [
+      "https://pmep.gov.np/pmep-introduction",
+      "https://thehimalayantimes.com/nepal/pmep-workers-daily-wage-up-insurance-compulsory",
+      "https://pradhanlaw.com/publications/minimum-remuneration-notice-2082-2025-ad"
+    ],
+    "last_verified_on": "2026-05-05",
+    "verification_status": "verified",
+    "confidence": "high",
+    "tags": ["not_a_loan", "income_bridge", "preparation_phase", "phone_verify"]
+  },
+  {
+    "id": "vc_pe_nepal",
+    "name_en": "Private Venture Capital & Private Equity (SEBON-registered SIF managers)",
+    "name_np": "निजी भेन्चर क्यापिटल र प्राइभेट इक्विटी कोष (SEBON दर्ता प्रबन्धक)",
+    "short_en": "VC / PE",
+    "type": "private_investment",
+    "umbrella": "SEBON Specialized Investment Fund Rules, 2075 (2019)",
+    "legal_basis": "Specialized Investment Fund Rules, 2075 (introduced 6 March 2019 under the Securities Act, 2063)",
+    "category": ["equity", "venture", "private", "tech"],
+    "ministry": "Securities Board of Nepal (SEBON) — regulator only, not an investor",
+    "apply_at": "Pitch directly to individual SEBON-registered Specialized Investment Fund Managers",
+    "max_loan_npr": null,
+    "subsidy_pct": null,
+    "effective_rate_note_en": "Equity investment, not a loan. Funds typically take 5–25% equity for ticket sizes ranging from ~NPR 50 lakh to several crore. Process is 6–18 months from first pitch to close. Only suitable for registered companies with an MVP, traction, and a credible scaling plan. As of latest SEBON registry there are ~19 registered SIF managers; verified examples include Adhyanta Fund Management, Alpha Plus Ventures, Apex Funds, Avasar Equity, CWEDA Equity Fund, Global Equity Fund, Laxmi Sunrise Capital, Maverick Kautilya Venture, Mogha Infrablocks, and Multiply Capital Management. Well-known active funds in Nepal also include Dolma Impact Fund (managed by Dolma Fund Management) and Business Oxygen (BO2 — IFC-backed since 2012).",
+    "effective_rate_note_np": "यो कर्जा होइन — इक्विटी लगानी हो। कोषले ५–२५% सेयर लिन्छन्। MVP र वृद्धि देखाउन सक्ने कम्पनीका लागि मात्र। SEBON मा ~१९ दर्ता प्रबन्धक छन्।",
+    "eligibility": {
+      "age_min": 18,
+      "citizenship_required": false,
+      "business_registered": true,
+      "gender": "any",
+      "has_mvp": true,
+      "has_traction": "preferred",
+      "scalable_business_model_required": true
+    },
+    "industries": ["technology", "fintech", "agritech", "edtech", "healthtech", "consumer", "logistics"],
+    "documents": [
+      "Pitch deck",
+      "Financial model (3–5 years)",
+      "Cap table",
+      "Company registration / shareholder agreement",
+      "MVP / product demo",
+      "Traction metrics"
+    ],
+    "processing_days_estimate": 270,
+    "description_en": "There is no single 'Nepal Venture Capital Fund'. SEBON regulates Specialized Investment Funds but does not invest itself. To raise equity, you pitch individual SEBON-registered fund managers. Suitable only for high-growth, scalable startups. Always check the current registered list on sebon.gov.np before pitching.",
+    "description_np": "एक मात्र 'नेपाल भेन्चर क्यापिटल कोष' छैन। SEBON ले नियमन गर्छ, लगानी गर्दैन। आफैंले SEBON-दर्ता कोष प्रबन्धकहरूलाई pitch गर्नुपर्छ।",
+    "primary_source_urls": [
+      "https://sebon.gov.np/intermediaries/specialized-investment-fund-manager",
+      "https://www.sebon.gov.np/regulations"
+    ],
+    "source_urls": [
+      "https://sebon.gov.np/intermediaries/specialized-investment-fund-manager",
+      "https://www.sebon.gov.np/regulations",
+      "https://lawbhandari.com/publication/private-equity-and-venture-capital-law-in-nepal-key-highlights",
+      "https://nepaldivorce.com/blog/private-equity-and-venture-capital-in-nepal"
+    ],
+    "last_verified_on": "2026-05-05",
+    "verification_status": "verified",
+    "confidence": "high",
+    "tags": ["equity", "tech_only", "needs_mvp", "long_process", "registered_needed"]
+  }
+]
